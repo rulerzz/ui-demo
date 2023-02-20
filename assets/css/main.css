@@ -1,0 +1,25 @@
+@import "main-preproc.css"; 
+
+@font-face {
+  font-family: "darawanafont-regular";
+  src: url("../fonts/static/LibreFranklin-Regular.ttf");
+}
+@font-face {
+  font-family: "darawanafont-medium";
+  src: url("../fonts/static/LibreFranklin-Medium.ttf");
+}
+@font-face {
+  font-family: "darawanafont-bold";
+  src: url("../fonts/static/LibreFranklin-Bold.ttf");
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}

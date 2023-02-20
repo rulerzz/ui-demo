@@ -1,0 +1,164 @@
+.navigation {
+  z-index: 1;
+  background: #253D5B;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #edeff1;
+}
+.navigation div {
+  height: 3rem;
+}
+
+#nav-img {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+#nav-img img {
+  display: inline;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+#nav-img h4 {
+  display: inline;
+  margin: 0 0 0 0.5rem;
+  color: #ffffff;
+  padding: 0;
+  font-family: darawanafont-regular;
+}
+
+#nav-search {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+#nav-search input {
+  background-image: url(../images/glass.png);
+  background-repeat: no-repeat;
+  background-position-x: 1rem;
+  background-position-y: 50%;
+  height: 2rem;
+  width: 100%;
+  border: 1px solid #f6f7f8;
+  outline: none;
+  background-color: #f6f7f8;
+  border-radius: 2rem;
+  padding: 0 1rem 0 2.4rem;
+}
+#nav-search input:hover {
+  border: 1px solid #C6878F;
+}
+#nav-search input:focus {
+  border: 1px solid #C6878F;
+}
+
+#nav-utility {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 30%;
+}
+#nav-utility button {
+  margin-left: 1rem;
+}
+
+#button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  background: transparent;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0px 10px;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 2.5rem;
+  position: relative;
+}
+#button-icon:hover {
+  border: 1px solid #edeff1;
+  cursor: pointer;
+}
+#button-icon:focus {
+  border: 1px solid #edeff1;
+}
+#button-icon #arrow {
+  height: 10px;
+  margin: 0 0 0 5px;
+}
+
+#button-filled {
+  border: none;
+  background: #0079d3;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0px 10px;
+  height: 2rem;
+  width: 8rem;
+  color: #fff;
+  border-radius: 2.5rem;
+}
+#button-filled:hover {
+  cursor: pointer;
+}
+
+#button-highlight {
+  border: 1px solid #0079d3;
+  color: #0079d3;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0px 10px;
+  height: 2rem;
+  width: 8rem;
+  background: transparent;
+  border-radius: 2.5rem;
+}
+#button-highlight:hover {
+  cursor: pointer;
+}
+
+#dropdown {
+  background: white;
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 1px 1px 5px 0px rgb(145, 145, 145);
+  -moz-box-shadow: 1px 1px 5px 0px rgb(145, 145, 145);
+  box-shadow: 1px 1px 5px 0px rgb(145, 145, 145);
+  position: absolute;
+  flex-direction: column;
+  top: 30px;
+  right: 0px;
+  width: 10rem;
+  list-style-type: none;
+}
+
+.dropdown-item {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  color: #444444;
+}
+.dropdown-item i {
+  font-size: 1rem;
+  margin: 0 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+.dropdown-item span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.dropdown-item:hover {
+  background: #0079d3;
+  color: #fff;
+}
+
+span, h1, h2, h3, h4, h5, h6, address, a, abbr, div, input {
+  color: #67697C;
+  font-family: darawanafont-regular;
+}
+
+/*# sourceMappingURL=main-preproc.css.map */
