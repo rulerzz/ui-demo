@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "darawanafont-regular";
+  src: url("../fonts/static/LibreFranklin-Regular.ttf");
+}
+@font-face {
+  font-family: "darawanafont-medium";
+  src: url("../fonts/static/LibreFranklin-Medium.ttf");
+}
+@font-face {
+  font-family: "darawanafont-bold";
+  src: url("../fonts/static/LibreFranklin-Bold.ttf");
+}
